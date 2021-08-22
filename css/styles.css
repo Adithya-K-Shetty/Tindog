@@ -296,6 +296,17 @@ span.b0 .btn-outline-dark:hover {
 /* ------MOBILE VIEW PORT------ */
 
 @media only screen and (min-width: 200px) and (max-width: 1024px) {
+    button.navbar-toggler {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding: 20px 40px;
+    }
+    span.navbar-toggler-icon {
+        font-size: 50px;
+    }
+    a.navbar-brand.brandName {
+        font-size: 84px;
+    }
     .nav-item {
         font-size: 3rem;
         margin-right: 2% !important;
@@ -307,27 +318,34 @@ span.b0 .btn-outline-dark:hover {
     }
     .navbar .navbar-collapse {
         text-align: center;
-        height: 600px;
+        height: 1500px;
     }
     .nav-item {
         padding-top: 10%;
     }
-    .navbar-toggler-icon {
-        color: #FF6F91 !important;
+    a.nav-link {
+        font-size: 8rem;
     }
     #heading {
         text-align: center;
         padding-top: 25%;
+        font-size: 8rem;
     }
     .dButton1 {
         margin-left: 3%;
         padding: 4% 5% 4% 5%;
         margin-bottom: 3%;
+        padding: 5% 7%;
+        font-size: 3rem;
+        border-radius: 4%;
     }
     .dButton2 {
-        margin-left: 3%;
+        margin-left: 6%;
         padding: 4% 5% 4% 5%;
         margin-bottom: 3%;
+        padding: 5% 7%;
+        font-size: 3rem;
+        border-radius: 4%;
     }
     .phoneImage1 {
         display: none;
@@ -338,21 +356,69 @@ span.b0 .btn-outline-dark:hover {
         max-width: 100%;
         margin-left: 3%;
     }
+    img.phoneImage2 {
+        margin-left: 20%;
+    }
+    h3.featureInfo {
+        font-size: 6rem;
+    }
+    .featureSubInfo {
+        font-size: 3rem;
+    }
+    .fa-check-circle:before {
+        content: "\f058";
+        font-size: 160%;
+    }
+    .fa-bullseye:before {
+        content: "\f140";
+        font-size: 160%;
+    }
+    .fa-heart:before {
+        content: "\f004";
+        font-size: 160%;
+    }
     .testimonial-text {
-        font-size: 2rem;
+        font-size: 6rem;
     }
     .testimonialImage {
         width: 40%;
         border-radius: 50%;
         margin-top: 50px;
     }
-    .testimonialName {
+    /* .testimonialName {
         font-size: 28px;
         color: #ffffff;
-    }
+    } */
     .testimonialName {
-        font-size: 20px;
+        font-size: 3rem;
         color: #ffffff;
+    }
+    .pricingHeading {
+        font-size: 6rem;
+    }
+    .pricingDetails {
+        font-size: 3rem;
+    }
+    .dogNames {
+        font-size: 3rem;
+    }
+    .cardSubHeading {
+        font-size: 3rem;
+    }
+    .cardDetails {
+        border: 2px solid #7302FB;
+    }
+    .cardInfo {
+        font-size: 30px;
+    }
+    span.b0 .btn-outline-dark {
+        font-size: 2rem;
+    }
+    span.b1 .btn-dark {
+        font-size: 2rem;
+    }
+    span.b2 .btn-dark {
+        font-size: 2rem;
     }
     .press {
         background-color: #7302FB;
@@ -367,35 +433,73 @@ span.b0 .btn-outline-dark:hover {
         margin-bottom: 5%;
     }
     .ctaText {
-        font-size: 2rem;
+        font-size: 6rem;
         font-family: 'Nunito', sans-serif;
         text-align: center;
     }
     .footerDownloadButton1 {
         margin: 5% 9% 5% 5%;
+        padding: 5% 7%;
+        font-size: 3rem;
+    }
+    .footerDownloadButton2 {
+        padding: 5% 7%;
+        font-size: 3rem;
+    }
+    img.footerDogImage {
+        margin-top: 10px;
+        position: relative;
+        /* bottom: 20px; */
+        right: 10px;
+        top: 50px;
     }
     .footerDogImage {
-        position: static;
+        position: relative;
+        margin-top: 20%;
+        width: 25%;
+    }
+    #footer {
+        text-align: center;
+        padding: 7% 0;
+    }
+    .fa-instagram:before {
+        content: "\f16d";
+        font-size: 120px;
+    }
+    .fa-twitter:before {
+        content: "\f099";
+        font-size: 120px;
+    }
+    .fa-github:before {
+        content: "\f09b";
+        font-size: 120px;
+    }
+    .fa-linkedin-in:before {
+        content: "\f0e1";
+        font-size: 120px;
+    }
+    .copyRight {
+        font-size: 3rem;
     }
 }
 
 @media only screen and (min-width:768px) and (max-width: 1028px) {
-    .dButton1 {
+    /* .dButton1 {
         margin-left: 15%;
         padding: 4% 5% 4% 5%;
         margin-bottom: 3%;
-    }
-    .dButton2 {
+    } */
+    /* .dButton2 {
         margin-left: 15%;
         padding: 4% 5% 4% 5%;
         margin-bottom: 3%;
-    }
-    .phoneImage2 {
+    } */
+    /* .phoneImage2 {
         display: block;
         height: auto;
         max-width: 100%;
         margin-left: 13%;
-    }
+    } */
 }
 
 
